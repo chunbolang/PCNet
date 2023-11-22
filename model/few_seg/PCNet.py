@@ -2,7 +2,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 from torch.autograd._functions import tensor
-from torch.nn import BatchNorm2d as BatchNorm        
+from torch.nn import BatchNorm2d as BatchNorm         
 from torch.cuda.amp import autocast as autocast
 import numpy as np
 from model.backbone.layer_extrator import layer_extrator
